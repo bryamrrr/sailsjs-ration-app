@@ -17,9 +17,15 @@ module.exports = {
 
 
   fn: async function (inputs, exits) {
+    const things = [
+      { id: 1, label: 'Sweet Red Drill' },
+      { id: 2, label: 'Rad Mountain Bike' },
+    ];
 
     // Respond with view.
-    return exits.success();
+    return exits.success({
+      things,
+    });
 
   }
 
