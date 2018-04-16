@@ -45,6 +45,7 @@
     "Stripe": true,
     "Vue": true,
     "VueRouter": true,
+    "Promise": true,
     // "moment": true,
     // ...etc.
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -53,7 +54,8 @@
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     "sails": false,
     "async": false,
-    "User": false
+    "User": false,
+    "Thing": false
     // ...and any other backend globals (e.g. `"Organization": false`)
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   }
