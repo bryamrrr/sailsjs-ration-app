@@ -23,6 +23,9 @@ parasails.registerPage('available-things', {
   methods: {
     clickThing: function (thingId) {
       console.log('Clicked thing: ', thingId);
+      await Cloud.destroyOneThing({ id: thingId });
+      _.remove(this.things, { id: thingId });
+      this.$forceUpdate();
     }
   }
 });
